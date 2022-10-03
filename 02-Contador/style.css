@@ -1,0 +1,80 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #000;
+    line-height: 1.5;
+}
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center
+    
+}
+
+.container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.container h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color:white;
+    
+          
+}
+
+
+.btn-container{
+    justify-content: space-between;
+    margin: 2rem;
+}
+.btn {
+    border-radius: .2rem;
+    border-width: .2rem;
+    border-color:#FFF;
+    background-color: transparent;
+    color:white;
+    padding: 0 1rem ;
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.decrementa:hover{
+     background-color: red;
+     border-color:red;
+
+}
+.incrementa:hover{
+    background-color: green;
+    border-color:green;
+
+}
+.resetea:hover{
+    background-color: blue;
+    border-color:blue;
+
+}
+
+
+.container span{
+    font-size: 6em;
+    color:white;
+    
+} 
+
+
+a{
+      text-decoration: none;
+
+}
