@@ -1,0 +1,88 @@
+*,
+::before,
+::after{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+ text-align: center;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    min-height: 90%;
+    margin:3rem;
+}
+
+.container{
+ background-color: gainsboro;
+ padding: 2rem;
+
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+article{
+
+}
+
+.review{
+  background-color: antiquewhite;
+  margin: 1rem ;
+  box-shadow: .02rem .02rem .7rem rgba(0, 0, 0, 0.199) ;
+}
+.review h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+   
+}
+.image-container{
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.image-container img{
+    width: 15rem;
+    height: 16rem;
+    border-radius: 50%;
+    background-color: rgb(89, 3, 3);
+    background-position: 5% 2%;
+}
+
+.random-btn{
+  background-color: rgb(190, 129, 247);
+  border-radius: .4rem;
+  font-size: .7em;
+  color:rgb(56, 0, 109);
+  padding: .4rem .7rem;
+  border-color: rgb(115, 25, 199);
+  border-width: .2rem;
+  margin:  1rem auto;
+  margin-bottom: 1rem;
+
+}
+
+.puesto {
+    font-size: 1em;
+    color: rgb(115, 25, 199);
+}
+
+.prev-btn,
+.next-btn {
+  color: var(--clr-primary-7);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
