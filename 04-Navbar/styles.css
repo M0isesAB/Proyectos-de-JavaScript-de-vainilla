@@ -1,0 +1,138 @@
+
+*,
+::after,
+::before{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(219, 212, 212);
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+nav{
+  box-shadow: 0rem 1rem 4rem rgb(0,0,0,.5);
+  background-color: #FFF;
+}
+.nav-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: rgb(227, 21, 138);
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: rgb(16, 73, 231);
+  transform: rotate(90deg);
+}
+
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.links a {
+  color: rgb(72, 0, 255);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: rgb(110, 127, 237);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+}
+.links a:hover {
+  background: rgb(70, 168, 254);
+  color: rgb(135, 4, 100);
+}
+.social-icons {
+  display: none;
+}
+
+.show-links {
+  height: 10rem;
+}
+
+
+.social-icons {
+  display:none;
+}
+
+
+@media screen and (min-width:800px){
+  .nav-center{
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 auto;
+     
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links {
+    height: auto;
+    display: flex;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: rgb(151, 46, 46);
+    transition: all 0.3s linear;
+  }
+  .social-icons a:hover {
+    color: rgb(49, 164, 137);
+  }
+
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: rgba(83, 0, 147, 0.746);
+    transition: all 0.3s linear ;
+  }
+  .social-icons a:hover {
+    color: rgba(197, 10, 110, 0.746);
+}
+
+  
+}
+ul{
+  list-style-type: none;
+}
+
+
+.logo{
+  height:40px
+}
